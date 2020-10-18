@@ -48,16 +48,16 @@ export default function SettingsScreen(props, { navigation }) {
         <Text style={{ fontSize: 24 }}>Welcome back {userName}!</Text>
       </View>
       <View style={styles.items}>
-        <Text style={{ fontSize: 18 }}>Preferences: breakfast, dessert</Text>
+        <Text style={{ fontSize: 18 }}>Meetings Scheduled: 3</Text>
       </View>
       <View style={styles.items}>
-        <Text style={{ fontSize: 18 }}>Location: Seattle</Text>
+        <Text style={{ fontSize: 18 }}>Friends: 15</Text>
       </View>
       <View style={styles.items}>
         <Text style={{ fontSize: 18 }}>Age: 19</Text>
       </View>
       <View style={styles.items}>
-        <Text style={{ fontSize: 18 }}>Cooking Style: Experimental</Text>
+        <Text style={{ fontSize: 18 }}>Favorite Activity: Cooking</Text>
       </View>
       <TouchableOpacity onPress={signout}>
         <View style={styles.logout}>
@@ -70,7 +70,7 @@ export default function SettingsScreen(props, { navigation }) {
 
 const styles = StyleSheet.create({
   welcome: {
-    backgroundColor: "lightgreen",
+    backgroundColor: "pink",
     marginBottom: 10,
     alignItems: "center",
     padding: 10,

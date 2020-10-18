@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import {Button, SafeAreaView, StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 
 import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
-import CalendarPicker from 'react-native-calendar-picker';
 import Colors from "../constants/Colors";
+import Radar from 'react-native-radar';
+
 
 export default function FriendsScreen({ navigation }) {
     const [selectedStartDate, setSelectedStartDate] = useState(null);
