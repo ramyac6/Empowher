@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+    "type": "service_account",
+    "project_id": "test-lhpu",
+    "private_key_id": "bfacd8808bcbaf484328d266a0ff50751943f637",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDZHpJKdBWHAn1u\nDwFWSyI3q4Tz4iRVdFGjdhI5fECkx1gVcw/eqFICn9ztfuyoVfYiaBRT0K90lpOD\nPSzcxm9pvLG7sei7DsZm8z4ZbykiINYOvQy7Cib2qcnxjP/pZW5Fm/2Oxe/mtL4l\nzleUMpPsS30/tPiip5hAEwFz8Gb0TTtgNA+nCjitcpe6n3l46jkUDJonzYNA5EdT\nwk+DZhJqn1c0IYyF8aaqStQgh7E64KiI4Ye/BQACv3wz5UOXsCw80lQDlvHZmasd\n++142uvfASw0GESl+awyesCB/ROQeu8WWu+QMpjZrNxZgvVscidvfsFBBlZBTL2Z\nW8MPwmwTAgMBAAECggEANDaiZq5I+QlTwbJxF2AFMA8a742cQEKzWVSNKG7lmtrn\np2zezaR76G6qciDaZ9cYVIjkDo36i9akTeTZ05QS+gIrWeB8f/ObKenoLrSpVzA/\nWhcDpz1XRm1ph6Hpbyb54FqVnQ6j1T71FWFsdVK+eQ5kZfwu6OrV9d68NDYFhE1X\nCml2cpJPNmphAxL8UcgSr/lE3GjT6fEXWglp/qxh2eZn0HbtG2FW8TKp+rQUIV54\nBemzd6KYNI5ENiuATbRBG08ocp6Q7uZ1hP3RlatmTgm4qRiQpeNeH876V5+Prhc2\n4hCo7fmZVXf8QP/41bEXyxoAhTBdWM59l/ZEhPhNyQKBgQDuD4GsbgxZyUeMk/aM\nNy2/A/bJeh03VDujHPReUB2j05nK6RIB/QTYitrrT9n743YU1DHwpbO0Y0EJxWJP\nsfSu97QzxNt46cdTxETJ7z2gEuvVNwa5jxtF67W77RrT0mekKQhC/Yv74MkkOTsW\n50ZxiW6aJalFDNqeBpifR5LWmwKBgQDpexVPgtIZUoOxETw2ku/7+5pzgUK3EWR9\nFRAqOoNcmJfUi3gOdOf98SaNcxvnjtgr0yFJOUyetl1fIshV8h3o2vsPm4mKRuL5\nuc3m/+Oc8NlqZu31cSoC2W1gJo/b3nttiWDSbOB/qyL1UoZ0679SAA4xiCl2UM0D\ncOGezbxb6QKBgHs/1/j3uLk7dimX6UtKvgpo+PnymPGuUHnwYav6en347WSaKlKR\nNlMOAK1XWBoK93VtLrXSdCluQZvXb0Cnd3Cmmcs7ng0Jq8L4mEyb6iHX6fUnWfnz\n10Dp+drjtMH56uKYw8g7EKBFDp4Ma0U+U8AwUOzJlstDDmRGMfo0yhcFAoGBAIt1\nCjiQ0j9vytsziTyrrY5cLVf6iEfiqpwPvbULeDURq/a3S4GPEJbcuINakvtPlg0v\nMb2T7RELql/N3c2ALZ9NVRJwe8nNJ3u0IKluhJzUO3jTfCTTcB19k1gQEHNqw1yc\n5ukpQTrglKPlpAwoWAF5qQCq7OEPyDTa8tiw2GYpAn8UaesyJeZnboKYEIF4ab1p\nM7N7JbNvAeiZbktINFbayY0Ecpk+olFSGNJo/wt/1eWPpLN1vlmExSOfXBIYASA+\nyvBOCMJ6+Grx3aTSLJmwcV2BtvnnuoTGquxpu5xieA1FQ9Cb9hdPbOnIv1F6c5kB\nMOzNeu8YNWL0ofYSg1jp\n-----END PRIVATE KEY-----\n",
+    "client_email": "blackrockchallenge@test-lhpu.iam.gserviceaccount.com",
+    "client_id": "106290060276669809136",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/blackrockchallenge%40test-lhpu.iam.gserviceaccount.com"
+  }
