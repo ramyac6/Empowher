@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
   },
   logout: {
-    backgroundColor: Colors.lightGreen,
+    backgroundColor: Colors.primarylight,
     marginBottom: 10,
     justifyContent: "flex-end",
     alignItems: "center",

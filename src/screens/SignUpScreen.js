@@ -58,7 +58,7 @@ export default function SignUpScreen({ navigation }) {
     <ImageBackground
       style={styles.background}
       resizeMethod="resize"
-      source={require("../../assets/stocks.jpg")}
+      source={require("../../assets/flash.jpg")}
     >
       <View style={styles.container}>
         <KeyboardAwareScrollView
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     paddingLeft: 16,
   },
   button: {
-    backgroundColor: Colors.lightGreen,
+    backgroundColor: Colors.primarylight,
     marginLeft: 30,
     marginRight: 30,
     marginTop: 20,
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   footerLink: {
-    color: Colors.darkGreen,
+    color: Colors.primaryDark,
     fontWeight: "bold",
     fontSize: 16,
   },
