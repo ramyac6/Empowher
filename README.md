@@ -1,8 +1,8 @@
-# BlackRock Challenge
+# Empowher
 
-This is an app that allows you to communicate with our chatbot.
+This is an app that promotes female empowerment.
 
-To demo our app follow the following steps:
+To demo this app follow the following steps:
 
 <ul>
  <li>Installation Steps</li>
@@ -27,6 +27,6 @@ To demo our app follow the following steps:
     <li>Make sure the expo app is installed on your phone</li>
     <li>Visit [this website](www.expo.com) in your browser and scan the QR code</li>
     <li>It will then launch the app on your phone</li>
-    <li>NOTE: This is dependent on how recently we published the app to Expo, it's likely this link may not be up to date so we reccomend using the computer installation method</li>
+    <li>NOTE: This is dependent on how recently I published the app to Expo, it's likely this link may not be up to date so I reccomend using the computer installation method</li>
  </ul>
 </ul>
