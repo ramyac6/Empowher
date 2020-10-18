@@ -2,11 +2,13 @@
   "name": "BlackRockChallenge",
   "displayName": "BlackRockChallenge",
   "expo": {
-    "name": "BlackRockChallenge",
-    "slug": "BlackRockChallenge",
+    "name": "Empowher",
+    "slug": "empowher",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "EmpowHERing one step at a time",
+    "githubUrl": "https://github.com/ramyac6/Empowher"
   }
 }
