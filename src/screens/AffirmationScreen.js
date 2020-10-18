@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 200,
-    height: 220,
+    height: 215,
   },
   message: {
     margin: 30,
