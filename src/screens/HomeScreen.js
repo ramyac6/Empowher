@@ -6,7 +6,8 @@ import SplashScreen from "./SplashScreen";
 import AffirmationScreen from "./AffirmationScreen";
 import ChatBotScreen from "./ChatBotScreen";
 import SettingsScreen from "./SettingsScreen";
-
+import FriendsScreen from "./FriendsScreen";
+import ScheduleScreen from "./ScheduleScreen";
 
 const Tabs = createBottomTabNavigator();
 
@@ -20,6 +21,8 @@ export default function HomeScreen(props, { navigation }) {
       }}
     >
       <Tabs.Screen name="Affirmation" component={AffirmationScreen} />
+      <Tabs.Screen name="Friends" component={FriendsScreen} />
+      <Tabs.Screen name="Schedule" component={ScheduleScreen} />
       <Tabs.Screen name="Chat Bot" component={ChatBotScreen} />
       <Tabs.Screen name="Settings">
         {(props) => <SettingsScreen {...props} extraData={userID} />}
