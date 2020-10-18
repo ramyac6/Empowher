@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Colors from "../constants/Colors";
 import SplashScreen from "./SplashScreen";
+import AffirmationScreen from "./AffirmationScreen";
 import ChatBotScreen from "./ChatBotScreen";
 import SettingsScreen from "./SettingsScreen";
 
@@ -18,6 +19,7 @@ export default function HomeScreen(props, { navigation }) {
         inactiveTintColor: Colors.gray,
       }}
     >
+      <Tabs.Screen name="Affirmation" component={AffirmationScreen} />
       <Tabs.Screen name="Chat Bot" component={ChatBotScreen} />
       <Tabs.Screen name="Settings">
         {(props) => <SettingsScreen {...props} extraData={userID} />}
