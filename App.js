@@ -50,7 +50,7 @@ function App() {
       <Stack.Navigator
         screenOptions={{
           headerStyle: {
-            backgroundColor: Colors.darkGreen,
+            backgroundColor: Colors.primaryDark,
             shadowColor: "transparent",
           },
           headerTintColor: "white",
@@ -62,7 +62,7 @@ function App() {
         }}
       >
         {user ? (
-          <Stack.Screen name="Atlas">
+          <Stack.Screen name="Empowher">
             {(props) => <HomeScreen {...props} extraData={user} />}
           </Stack.Screen>
         ) : (
