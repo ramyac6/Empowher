@@ -63,4 +63,4 @@ buck-out/
 web-build/
 
 # config
-/src/config
+/src/config/*
