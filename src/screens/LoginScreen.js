@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   footerLink: {
-    color: Colors.primaryDark,
+    color: Colors.primarylight,
     fontWeight: "bold",
     fontSize: 16,
   },
